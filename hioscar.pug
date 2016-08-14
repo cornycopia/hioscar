@@ -2,14 +2,14 @@ doctype html
 html(lang="en")
   head
     title Oscar | Smart, simple health insurance.
-    link(rel="stylesheet" type="text/css" href="mystyles.css")
-    button OSCAR
-    button Login
-    button Menu
+    link(rel="stylesheet" type="text/css" href="styles.css")
+    button.ib OSCAR
+    button.ib Login
+    button.ib Menu
   body
-    h1 Hi, we're Oscar.
+    h1#titleText Hi, we're Oscar.
     h1 Smart, simple health insurance.
-    button Get Your Quote
+    button.quoteButton Get Your Quote
     button Watch the Video
     img(src="./images/DownArrow.png")
 
@@ -52,3 +52,70 @@ html(lang="en")
       p As a team of engineers, designers, data scientists, healthcare experts and many more, we're on a mission to reinvent how care is delivered. Our goal is to have the happiest members paying the lowest costs for the healthiest outcomes.
       img(src="./images/HelpMake.png")
 
+    div.accolade
+      h2 See what others are saying about Oscar
+      p Oscar has the new-era tech pedigree to become the Spotify, AirBnB or Uber of health insurance.
+      a(href="http://www.nytimes.com/2014/03/29/business/start-up-health-insurer-finds-foothold-in-new-york.html?_r=1")
+        img(src="./images/TheNewYorkTimes.png")
+      p Oscar has a more holistic and integrated online interface than established playerse... I have never had such an easy time with insurance in my life.
+      a(href="http://www.latimes.com/business/la-fi-cutting-edge-oscar-20151018-story.html")
+        img(src="./images/LosAngelesTimes.png")
+      p Oscar is setting itself apart from other health insurers by emphasizing technology, data and easy-to-understand explanations of its services.
+      a(href="http://www.cnbc.com/2015/05/12/oscar-disruptor-50.html")
+        img(src="./images/CNBC.png")
+
+      a(href="http://www.forbes.com/sites/stevenbertoni/2014/12/08/oscar-health-using-misfit-wearables-to-reward-fit-customers/") 
+        img(src="./images/Forbes.png")
+      a(href="http://gizmodo.com/an-insurance-company-will-pay-you-to-use-your-fitness-t-1668967153") 
+        img(src="./images/GIZMODO.png")
+      a(href="http://nymag.com/health/bestdoctors/2014/oscar-health-insurance-2014-6/")
+        img(src="./images/NewYork.png")
+      a(href="techcrunch.com/2014/02/11/thrive-capital-founder-josh-kushner-on-the-power-of-oscar/") 
+        img(src="./images/TechCrunch.png")
+      a(href="http://www.usatoday.com/story/tech/2015/06/24/oscar-uses-tech-to-make-consumers-less-grouchy-about-health-care/29150055/")
+        img(src="./images/USAToday.png")
+      a(href="http://www.wired.com/2015/04/oscar-funding/")
+        img(src="./images/WIRED.png")
+
+    div.zip
+      p My zip code is 
+      button.quoteButton Get Your Quote in Seconds
+    div.footer
+      form
+        h3.footerText Discover
+        a Better Plans
+        a Better Care
+        a Better Experience
+      form
+        h3.footerText Explore
+        a Search Doctors
+        a Search Drugs
+        a Find Forms
+      form
+        h3.footerText Sign Up
+        a Get Your Free Quote
+        a View Plan Highlights
+      form
+        h3.footerText Company
+        a About Us
+        a Careers
+        a Blog
+      form
+        h3.footerText Partners
+        a Brokers
+        a Providers
+        a Press
+      form
+        h3.footerText Connect
+        a Facebook
+        a Twitter
+        a Youtube
+        a Instagram
+      hr
+      a Terms of Service
+      a Privacy Policy
+      p Want help?
+      a Call 1-855-OSCAR-88
+      select(name="Language")
+        option(value="English") English
+        option(value="Espanol") Espanol
